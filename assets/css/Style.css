@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: block;
+    background-color: #EBE3CC;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    padding-top: 2px ;
+    box-shadow:1px 5px 10px rgb(104, 104, 104);
+}
+
+.header2{
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap; /* Permite que os elementos quebrem para a linha de baixo */
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 170px;
+    padding: 50px;
+    background-color: rgba(245, 241, 7, 0.151);
+    box-shadow:1px 5px 20px black;
+}
+
+img[src="img/dogs.jpg"]{
+   height:250px;
+   border-radius: 20px;
+
+}
+
+.more{
+    width: 68% ;
+    margin-top: -60px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+
+.button[name="logar"]{
+    padding: 20px;
+    width: 100px;
+    color: rgba(0, 0, 0, 0.849);
+    background-color:#EBE3CC; 
+    opacity: 0.7;
+    border-radius: 50px;
+    border: 2px solid white; /* Define a espessura, o estilo e a cor da borda */
+    font-size: medium;
+}
+
+    .button[name="Sobre"],
+    .button[name="Servico"],
+    .button[name="Blog"] {
+        margin-right: 50px;
+        padding: 20px;
+        width: 120px;
+        color: rgba(0, 0, 0, 0.932);
+        background-color: transparent; 
+        opacity: 0.7;
+        border-radius: 50px;
+        border: none;
+        font-size: medium;
+       
+    }
+
+.Buttonsbg{
+    position: absolute;  /* Coloca a imagem atrás dos botões */
+    top: 50%;  /* Centraliza verticalmente */
+    left: 15%;  /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%);  /* Ajusta para alinhar no centro */
+    width: 250px;  /* Ajuste o tamanho conforme necessário */
+    z-index: -1;  /* Faz a imagem ficar atrás dos botões */
+}
+
+.button[name="Learn"]{
+    padding: 20px;
+    width: 150px;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: orange;
+    border-radius:50px;
+    border: none;
+    font-size: medium;
+}
+
+.navigation{   /* Para estruturar o botão logar*/
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.explorer{  /* Para estruturar os botões da barra superior: Sobre,Serviço,Blog */
+    display: flex;
+    position: relative;  /* Define um contexto para posicionamento */
+    gap: 30px;
+}
+
+img{
+    height:140px;
+}
+
+b2{
+    color: red;
+}
+
+
+
