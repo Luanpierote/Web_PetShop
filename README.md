@@ -1,0 +1,1 @@
+-Um projeto criado inicialmente para colocar em prática modificações estilizadas CSS, e futuramente publicar a implementação das funcionalidades do site
